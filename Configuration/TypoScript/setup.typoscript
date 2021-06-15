@@ -1,0 +1,6 @@
+plugin.tx_ext_scaffold{
+    view{
+        templateRootPaths.0 = {$plugin.tx_ext_scaffold.view.templateRootPaths.0}
+        layoutsRootPaths.0 = {$plugin.tx_ext_scaffold.view.layoutsRootPaths.0}
+    }
+}
