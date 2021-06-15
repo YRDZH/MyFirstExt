@@ -177,8 +177,7 @@
   /**
    * Clients Slider
    */
-  new Swiper('.clients-slider',
-  {
+  new Swiper('.clients-slider', {
     speed: 400,
     loop: true,
     autoplay: {
