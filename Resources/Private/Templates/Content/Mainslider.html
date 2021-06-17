@@ -1,0 +1,28 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+     xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+     xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+     xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+    data-namespace-typo3-fluid="true">
+
+
+
+    <f:layout name = "Content"/>
+
+    <f:section name="Configuration">
+        <flux:form id="example" description="scaffold descr" label="scaffold label">
+            <flux:form.option name="group" value="scaffold" />
+            <flux:field.input name="headline" required = "true" label="headline field"/>
+        </flux:form>
+    </f:section>
+
+    <f:section name="Preview">
+        <strong>Your input</strong><br/>
+        {headline}
+    </f:section>
+
+    <f:section name="Main">
+        {headline}
+
+    </f:section>
+
+</div>
